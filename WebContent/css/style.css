@@ -1,0 +1,619 @@
+/*RESET SETTING*/
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, font, img,
+	strong, ol, ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	font-size: 13px;
+	font-family: goergia, helvetica, arial, sans-serif;
+	line-height: 1.5;
+	background: url(images/bg.jpg) top left;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.clear {
+	clear: both;
+}
+/*END RESET*/
+body {
+	background: #E9EAED;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0px auto;
+}
+/* Header*/
+#header {
+	height: 140px;
+	overflow: hidden;
+	color: white;
+}
+/*top_nav*/
+#header #top_nav {
+	background: #620000;
+	padding: 5px;
+	height: 20px;
+}
+
+#header #top_nav ul {
+	list-style-type: none;
+}
+
+#header #top_nav ul li {
+	display: inline;
+	float: right;
+}
+
+#header #top_nav ul li a {
+	color: white;
+	margin: 10px;
+}
+
+#header #top_nav ul li a:hover {
+	text-decoration: none;
+}
+/*top_nav*/
+/*top_menu*/
+#top_menu #hotline {
+	float: right;
+	z-index: 99999;
+	color: #555;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 3px 20px 5px 20px;
+	background: url('../images/hotline.png') no-repeat left;
+}
+
+#header #top_menu ul {
+	float: left;
+	list-style-type: none;
+	margin: 5px;
+}
+
+#header #top_menu ul li {
+		transition: all 600ms;
+	display: inline;
+}
+
+#header #top_menu ul li a {
+	color: black;
+	margin: 10px;
+}
+
+#header #top_menu ul li:hover a {
+	
+	text-decoration: none;
+	color: white;
+}
+
+#header #top_menu ul li:hover {
+	background: #d74b33;;
+	padding: 6px 0px 8px 0px;
+}
+
+#header #top_menu {
+	overflow: hidden;
+	background: white;
+	height: 40px;
+	width: 100%;
+	padding: 5px;
+}
+/*top_menu*/
+#header #logoBar {
+	height: 70px;
+	background: white;
+}
+
+#header #logoBar #logo {
+	float: left;
+	margin: 15px
+}
+
+#header #logoBar #search {
+	float: right;
+	margin: 25px;
+}
+/*End Header*/
+
+/* Primary */
+#primary {
+	background: white;
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px dashed #d74b33;
+}
+
+/* End Primary */
+
+/* Sidebar */
+#primary #sidebar {
+	padding-top: 5px;
+	width: 23%;
+	float: left;
+	background: white;
+	min-height: 600px;
+}
+
+#primary #sidebar #category {
+	border: 1px solid #ccc;
+	width: 90%;
+	margin: 5px 0px 5px 15px;
+}
+
+#primary #sidebar #category #title {
+	background: #d74b33;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	font-weight: bold
+}
+
+#primary #sidebar #category #contentCategory ul li {
+		transition: all 600ms;
+	
+	color: black;
+	padding: 4px 0px 4px 20px;
+}
+
+#primary #sidebar #category #contentCategory ul a li:hover {
+	background: #ccc;
+}
+
+#primary #sidebar #category #contentCategory ul a:hover {
+	text-decoration: none;
+}
+
+/*Liên hệ*/
+#contentCategory #hotro {
+	margin: 0px 15%;
+}
+
+#contentCategory #hotro a {
+	color: #928;
+}
+
+#contentPage #info {
+	margin: 5px;
+	border: 1px dashed #777;
+	padding: 10px;
+}
+
+#contentPage #listAgency {
+	
+}
+
+#contentPage #listAgency table {
+	margin: 5px;
+	border: 1px dashed #777;
+	padding: 10px;
+	width: 98.7%;
+}
+/*End Liên hệ*/
+/* End Sidebar */
+
+/* Home page */
+#primary #content #welcome {
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10%;
+	font-size: 2.5em;
+}
+/* End Home page */
+
+/* Content Page */
+#primary #content {
+	min-height: 500px;
+	width: 77%;
+	float: right;
+	background: white;
+}
+
+#content #title {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin: 0px 10px;
+	padding: 10px 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+#primary #content #contentPage {
+	margin: 0px 10px;
+}
+/* End content page */
+
+/*Format table*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ccc;
+}
+
+table th {
+	text-transform: uppercase;
+	border-bottom: 2px solid #939393;
+	padding: 5px 0px;
+}
+
+table .even {
+	background: #f2f2f2;
+}
+
+table .odd {
+	background: white;
+}
+
+table td {
+	padding: 5px 0px 5px 5px;
+}
+
+#tdThaoTac a img {
+	float: left;
+	margin-right: 5px;
+	margin-left: 8px;
+}
+
+table td #buttonOk {
+	color: white;
+	background: #7ed004;
+	padding: 3px 10px;
+}
+/*End Format table*/
+
+/*Footer style*/
+#footer {
+	background: white;
+	height: 50px;
+}
+
+#footer #infoFooter {
+	background: white;
+	height: 50px;
+	border-top: 1px dashed black;
+}
+
+#footer #infoFooter #logo {
+	margin: 5px 42%;
+}
+
+#footer #endFooter {
+	background: #620000;
+	height: 25px;
+	text-align: center;
+	color: white;
+	padding: 5px 0px 0px 0px;
+}
+/*End footer style*/
+
+/*San pham*/
+.khung3 {
+	min-height: 230px;
+}
+
+.listsanpham {
+	float: left;
+}
+
+.sanpham {
+	width: 160px;
+	height: 200px;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	border: 1px solid #c0c0c0;
+	float: left;
+}
+
+.sanpham img {
+	width: 100%;
+	height: 130px;
+}
+
+.sanpham #tenSanPham {
+	color: #d74b33;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.sanpham p span {
+	color: #333;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.sanpham #muaNgay {
+	color: white;
+	background: #d74b33;
+	padding: 4px;
+}
+
+.sanpham .ghang img {
+	width: 20px;
+	height: 20px;
+}
+
+.sanpham .ghang {
+	color: white;
+	background: #d74b33;
+	margin-left: 5px;
+	padding: 4px;
+}
+
+.danhmucsanpham {
+	margin: 5px 5px;
+	float: right;
+	border: 1px solid red;
+	width: 270px;
+	height: auto;
+}
+
+/*End San pham*/
+/*Giỏ hàng*/
+.hangdat {
+	min-height: 100px;
+}
+
+.hangdat .itemhang {
+	height: 40px;
+	border-bottom: 1px dashed #ccc;
+	padding: 10px 5px;
+}
+
+.hangdat .itemhang #tenSanPham {
+	color: #333;
+	margin-bottom: 5px;
+}
+
+.hangdat .itemhang a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.giamItem {
+	background: #444;
+	float: left;
+	border-radius: 15px;
+	padding: 0px 8px;
+	color: white;
+}
+
+.giamItem:hover {
+	cursor: pointer;
+}
+
+.hangdat .itemhang #soLuong {
+	float: left;
+	padding: 1px 5px;
+	color: black;
+	background: white;
+}
+
+.tangItem {
+	background: #444;
+	float: left;
+	border-radius: 15px;
+	padding: 0px 6px;
+	color: white;
+}
+
+.tangItem:hover {
+	cursor: pointer;
+}
+
+.hangdat .itemhang #giaBan {
+	float: right;
+	padding: 2px 8px;
+	color: red;
+	font-weight: bold;
+}
+
+.xoaItem {
+	color: white;
+	font-weight: bold;
+	background: red;
+	padding: 0px 4px;
+	float: right;
+	margin-top: -5px;
+}
+
+.giohang #tongTien {
+	width: 98.5%;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	background: #666;
+	color: white;
+	padding: 5px 0px 5px 4px;
+}
+
+.giohang #tongTien span {
+	margin-right: 15px;
+	float: right;
+	font-weight: bold;
+}
+
+.giohang #thanhtoan {
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	text-decoration: none;
+	width: 100%;
+	float: left;
+	color: white;
+	font-weight: bold;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.giohang #thanhtoan:hover {
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+
+.divPhanAnDaChon #contentCategory .giohang form .hangdat {
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-height: 350px;
+}
+/*End Giỏ hàng*/
+/*Đặt hàng*/
+.khung3 .xoaItem {
+	color: white;
+	font-weight: bold;
+	background: red;
+	margin-right: 15px;
+	padding: 0px 4px;
+	margin-top: 0px;
+}
+
+.khung3 .xoaItem:hover {
+	cursor: pointer;
+}
+
+.khung3 #btnThaoTac {
+	float: right;
+	margin: 15px;
+}
+
+.khung3 #datHang {
+	background: #3498db;
+	color: #ffffff;
+	padding: 7px 15px 7px 15px;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.khung3 #datHang:hover {
+	background: #3cb0fd;
+}
+
+.khung3 #xoagiohang {
+	background: #eb5252;
+	color: #ffffff;
+	padding: 7px 10px 7px 10px;
+	text-decoration: none;
+}
+
+.khung3 #xoagiohang:hover {
+	background: #fa5555;
+	cursor: pointer;
+}
+/*End Đặt hàng*/
+
+/*Chi tiết sản phẩm*/
+#primary #content #contentPage .noidung {
+	width: 100%;
+	overflow: hidden;
+	padding: 5px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+
+#primary #content #contentPage .noidung #imgDes img {
+	float: left;
+	width: 350px;
+}
+
+#primary #content #contentPage .noidung #infoProduct {
+	float: left;
+	margin-left: 10px;
+	width: 50%;
+}
+
+.noidung #infoProduct  #thongTinThem {
+	min-height: 150px;
+}
+
+.noidung #infoProduct #btnMuaSanPham {
+	margin-top: 10px;
+	float: right;
+}
+
+.noidung #infoProduct #btnMuaSanPham  #muaNgay {
+	color: white;
+	background: #d74b33;
+	padding: 4px;
+}
+
+.noidung #infoProduct #btnMuaSanPham  .ghang {
+	padding: 4px;
+	color: white;
+	width: 20px;
+	height: 20px;
+	background: #d74b33;
+	margin-left: 5px;
+}
+
+.noidung #infoProduct #btnMuaSanPham  .ghang img {
+	color: black;
+	width: 20px;
+	height: 20px;
+}
+/*End chi tiết sản phẩm*/
+#successMessage {
+	background: rgba(43, 43, 43, 0.5);
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	height: 730px;
+	top: 0px;
+	left: 0px;
+}
+
+#messagecontent {
+	background: white;
+	width: 30%;
+	margin: 300px auto;
+	padding: 10px;
+}
+
+#messagecontent #title {
+	font-size: 16px;
+	color: #620000;
+	font-weight: bold;
+}
+
+#successMessage #messagecontent{
+	transition: all 600ms;
+}
+
+#messagecontent p {
+	margin-bottom: 8px;
+}
+
+#messagecontent a {
+	background: #620000;
+	color: white;
+	padding: 5px 25px;
+	margin-left: 330px;
+	transition: all 600ms;
+}
+
+#messagecontent a:hover {
+	background: #d02626;
+	cursor: pointer;
+	text-decoration: none;
+}
