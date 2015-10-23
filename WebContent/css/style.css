@@ -89,7 +89,7 @@ body {
 }
 
 #header #top_menu ul li {
-		transition: all 600ms;
+	transition: all 600ms;
 	display: inline;
 }
 
@@ -99,7 +99,6 @@ body {
 }
 
 #header #top_menu ul li:hover a {
-	
 	text-decoration: none;
 	color: white;
 }
@@ -167,8 +166,7 @@ body {
 }
 
 #primary #sidebar #category #contentCategory ul li {
-		transition: all 600ms;
-	
+	transition: all 600ms;
 	color: black;
 	padding: 4px 0px 4px 20px;
 }
@@ -596,7 +594,7 @@ table td #buttonOk {
 	font-weight: bold;
 }
 
-#successMessage #messagecontent{
+#successMessage #messagecontent {
 	transition: all 600ms;
 }
 
@@ -615,5 +613,15 @@ table td #buttonOk {
 #messagecontent a:hover {
 	background: #d02626;
 	cursor: pointer;
+	text-decoration: none;
+}
+
+.sanpham .ghang:hover {
+	background: #b4341e;
+	cursor: pointer;
+}
+
+.sanpham #muaNgay:hover {
+	background: #b4341e;
 	text-decoration: none;
 }
