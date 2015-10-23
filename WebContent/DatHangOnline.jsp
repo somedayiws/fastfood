@@ -143,12 +143,14 @@ input.error {
 									<%
 										ArrayList<CHINHANH> list = (ArrayList<CHINHANH>) request
 												.getAttribute("list");
+										if(list!=null){
 										for (int i = 0; i < list.size(); i++) {
 									%>
 									<option value="<%=list.get(i).getIdChiNhanh()%>">
 										<%=list.get(i).getDiaChi()%>
 									</option>
 									<%
+										}
 										}
 									%>
 							</select></td>
